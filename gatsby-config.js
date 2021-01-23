@@ -5,6 +5,8 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    siteName: `Using TypeScript Example`,
+  },
   plugins: [],
 }

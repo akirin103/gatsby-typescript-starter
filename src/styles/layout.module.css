@@ -1,0 +1,14 @@
+.header {
+  padding: 80px 50px 50px 50px;
+  border: 1px solid #ddd;
+}
+
+.contents {
+  padding: 80px 50px 50px 50px;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  padding: 80px 50px 50px 50px;
+  border: 1px solid #ddd;
+}
