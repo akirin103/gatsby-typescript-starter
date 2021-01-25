@@ -1,14 +1,18 @@
 .header {
   padding: 80px 50px 50px 50px;
   border: 1px solid #ddd;
+  background-color: rgba(64, 191, 96, 0.9);
+  /* background-color: rgba(64, 191, 96, 1.0); */
 }
 
 .contents {
   padding: 80px 50px 50px 50px;
   border: 1px solid #ddd;
+  background-color: forestgreen;
 }
 
 .footer {
   padding: 80px 50px 50px 50px;
   border: 1px solid #ddd;
+  background-color: blueviolet;
 }
