@@ -25,9 +25,13 @@ export const pageQuery = graphql`
 
 const IndexPage: React.FC<IndexPageProps> = (props) => {
   const { siteName } = props.data.site.siteMetadata
+  const buttonAlert = () => {
+    alert('Clicked!');
+  }
   return (
     <Layout>
       <p>gatsby.config.jsからタイトル取得(GraphQL): { siteName }</p>
+      <button onClick={buttonAlert}>Click me</button>
       <Hello message="Helloコンポーネントのメッセージプロパティ"/>
     </Layout>
   )
